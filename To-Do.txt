@@ -1,0 +1,5 @@
+implementare menù per accedere a:
+homepage
+(magari php per contattare via mail)
+visualizzazione CV
+se possibile una parte dedicata per qualche appunto mio

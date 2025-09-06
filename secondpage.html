@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--THIS IS MY SITE-->
+<!-- i do what i want in here!-->
+<head>
+<style>
+    body {background-color: bisque;}
+    h1 {
+        font-family: verdana;
+    }
+    h2 {
+        font-family: verdana;
+    }
+    th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        border-radius: 10px;
+        background-color: lightgoldenrodyellow;
+        border-color: lightgray;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    tr:hover {
+        background-color:lightgray;
+        border-color: rgba(211, 211, 211, 0.5);
+    }
+    div{
+        width: 33%;
+    }
+    /*ID*/
+    #header {
+        background-color: purple;
+        color: greenyellow;
+        padding: 20px;
+        text-align: center;
+        font-size: 3vw;
+    }
+    /*CLASS*/
+    .sub{
+        background-color: lightgreen;
+        color: black;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*FRAME*/
+    #frame{
+        border: 1px solid gray;
+        width: 50%;
+        height: 250px;
+    }
+    details {
+    margin: 10px 0;
+    padding: 5px;
+    background: lightgreen;
+    border-radius: 8px;
+    overflow: hidden;
+    }
+
+    summary {
+    cursor: pointer;
+    font-family: verdana;
+    font-weight: bold;
+    padding: 8px;
+    list-style: none;
+    }
+
+    /* rimuovo le freccette */
+    summary::-webkit-details-marker {
+    display: none;
+    }
+    summary::marker {
+    display: none;
+    }
+
+    /* effetto scorrevole */
+    details p {
+    margin: 0;
+    padding: 10px;
+    border: 2px solid dodgerblue;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    }
+    details[open] p {
+    max-height: 500px;
+    }
+</style>
+<title>My personal adventure-book</title>
+<link rel="icon" type="image/x-icon" href="icon-alpaca.gif" alt="icon">
+<base href="https://andreabdeluca.github.io/websitedemo/" target="_blank">
+
+<!--METADATA-->
+<meta name="author" content="Andrea De Luca">
+<meta name="keywords" content="adventure, mountain, mountain.bruh">
+<meta name="description" content="my very own personal site for me own person">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+<h1 id="header"><b>☀ MY LIL ADVENTURES ☀</b></h1>
+
+<hr>
+<h2 class="sub" id="C1">this the first chapter</h2>
+<p style="border:2px solid dodgerblue">here you can read what i write</p>
+
+<hr>
+<h2 class="sub" id="C2">this second one</h2>
+<p style="border:2px solid darkturquoise">here we go again .-.</p>
+<hr>
+
+
+
+<details>
+  <summary>One day in the alps</summary>
+  <p>Qui scrivo il mio testo senza nessuna freccia visibile</p>
+</details>
+
+<details>
+  <summary>Living the life i was supposed to in my 20s</summary>
+  <p>Altri contenuti senza frecce</p>
+</details>
+
+
+<a href="https://www.strava.com/athletes/47817637">
+<img src="logo-strava.png" alt="Strava" width="48" height="48">
+</a>
+
+<a href="https://www.instagram.com/mountain.bruh/">
+<img src="logo-instagram.png" alt="Instagram" width="48" height="48">
+</a>
+
+<a href="https://www.linkedin.com/in/andrea-de-luca-5a699924a/">
+<img src="logo-linkedin.png" alt="LinkedIn" width="48" height="48">
+</a>
+
+
+<footer>
+<p>made by Andrea De Luca - &#169 i own all the rights for me </p>
+<p><a href="mailto:andrea.b.deluca@gmail.com">andrea.b.deluca@gmail.com</a></p>
+</footer>
+</body>
+</html>
